@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class = "head">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV</title>
+</head>
+<body class = "body">
+    <header class = "header">
+        <div class = "container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-value"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-value"><a href="#aboutMe" class="nav-link">About Myself</a></li>
+                  <li class="nav-value"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-value"><a href="#code" class="nav-link">Code example</a></li>
+                  <li class="nav-value"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-value"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main>
+        <div class = "container main-container">
+            <section class = "section" id = "contacts">
+              <p>
+                <img class = "photo" src="me.jpg" alt="my photo" align = "left"/>
+                <h1 class = "section-title">Anna Osipova</h1>
+                <ul class = "cont">
+                    <li>Phone: +79301052131</li>
+                    <li>E-mail:anutka11rus@gmail.com</li>
+                    <li>Discord:@iamanny</li>
+                </ul> 
+              </p>           
+            </section>
+            <section class = "section" id = "aboutMe">
+                <h3 class = "section-title"> About Myself </h3>
+                <p>I want to learn to program and subsequently find a job. Now I'm studying at a university, and when I graduate in a year, I want to work. At the university, my group and I did a project, developed a mobile application, it was quite interesting.
+                    If something hooks me and captivates me, then I can sit at this activity for hours, and I would like it to be the same for my work.</p>
+            </section>
+            <section class = "section little" id = "skills">
+                <h3 class = "section-title"> Skills </h3>
+                <ul>
+                    <li>GitHub</li>
+                    <li>CSS, HTML basics</li>
+                    <li>Flutter basics</li>
+                    <li>Python basics</li>
+                </ul>
+            </section>
+            <section class = "section" id = "code">
+                <h3 class = "section-title"> Code example </h3>
+               <p><code>@override<Br>
+                void initState() {<Br>
+                  super.initState();<Br>
+                  _emailFocusNode.addListener(() {<Br>
+                    if (!_emailFocusNode.hasFocus) {<Br>
+                      setState(() {<Br>
+                        _isInvalid = !isValidLogin(_emailController.text);<Br>
+                      });<Br>
+                    }<Br>
+                  });<Br>              
+                }<Br></code></p> 
+                
+            </section>
+            <section class = "section" id = "courses">
+                <h3 class = "section-title"> Courses </h3>
+                <ul>
+                    <li>RS School course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                    <li>HTML and CSS (freecodecamp.org)</span></li>
+                    <li>3rd year university studies(Informatics and Computer Science)</li>
+                </ul>
+
+            </section>
+            <section class = "section" id = "english">
+                <h3 class = "section-title"> English </h3>
+                <p>A2 - studying at school and university</p>
+            </section>
+        </div>
+    </main>
+<footer class = "footer">
+    <div class = "container footer-container">
+      <div>2024<a href="https://github.com/iamanny" class=" nav-link">iamanny</a></div>
+      <a href="https://wearecommunity.io/events/js-stage0-rs-2024q2" class="rss"></a>
+    </div>
+
+    </div>
+</footer>   
+</body>
+</html>
